@@ -165,7 +165,7 @@ os.getcwd()
 
 import pandas as pd
 
-# Assuming your dataset is stored in a DataFrame called df
+#  dataset is stored in a DataFrame called df
 # Drop columns with at least one null value in the last 6 rows
 
 cols_with_null = Data2.iloc[-6:].isnull().any()
@@ -279,7 +279,7 @@ clean_data = winsor.fit_transform(Clean)  # Fit and transform numerical features
 clean_data.to_csv("clean_data.csv")
 
 
-                        ## Visualize data after KNNImputer, outlier treatment:-
+                        ## Visualize data after KNNImputer and outlier treatment:-
                          
 import matplotlib.pyplot as plt
 
